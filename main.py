@@ -1,7 +1,7 @@
 try:
     price= int(input())
-    vat=int(intput())
+    vat=int(input())
     total= price+price*(vat)/100
     print(round(total))
 except:
-    print("nvalid Input")
+    print("Invalid Input")
